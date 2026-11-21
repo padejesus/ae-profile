@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@900&family=Plus+Jakarta+Sans&display=swap');
+
+body {
+	   background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            #241619 0%,
+            transparent 75%
+        ),
+        linear-gradient(
+            to bottom,
+            #281538 0%,
+			#1B0F27 55%,
+			#100A17 100%
+        );
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	
+	font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
+	color: #E8B96B;
+}
+
+a {
+	color: #C99545;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #594568;
+}
+
+
+/* Header Banner */
+.hero-banner {
+    width: 100%;
+    min-height: clamp(22rem, 38.264vw, 34.4375rem);
+
+    background-image: url("hero_pic.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Nata Sans', 'Inter', sans-serif;
+	font-weight: 900;
+	color: #EEEEEE;
+	text-align: center;
+}
+
+p.headerp {
+	font-family: 'Plus Jakarta Sans', 'Roboto' sans-serif;
+	color: #EEEEEE;
+	text-align: center;
+}
+
+/* Body Headers */
+
+h2 {
+	font-family: 'Nata Sans', 'Inter', sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Nata Sans', 'Inter', sans-serif;
+	font-weight: 900;
+}
+
+
+
+/* Bio - About Me */
+.bio {
+	padding: 3rem 0rem 1rem 0rem;
+}
+
+.bio-container {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	gap: 0;
+	
+	width: 70%;
+	margin: 0 auto;
+	
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
+	
+	overflow: hidden;
+	
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Text on Left */
+.bio-text {
+	flex: 0 1 40%;
+	line-height: 1.8;
+	padding: 1rem;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+/* Image on Right */
+.bio-pic {
+	flex: 0 1 40%;
+	padding: 1rem;
+}
+
+.bio-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Section - Favorites */
+.favorites {
+	padding: 1rem 0rem 1rem 0rem;
+}
+
+/* Favorites list */
+.favorites-list {
+	display: flex;
+	justify-content: center;
+	
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 1.5rem;
+	box-sizing: border-box;
+	
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
+	
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.favorites-list ul {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1rem 3rem;
+	
+	width: 100%;
+	margin: 0;
+	padding-left: 1.5rem;
+}
+
+/* Section - Passion */
+.passion {
+	padding: 1rem 0rem 1rem 0rem;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	line-height: 1.8;
+}
+
+/* Passion - Voice Acting: Genshin */
+.genshin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
+	
+	overflow: hidden;
+	
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.genshin video {
+	display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Passion - Writing: Ilustrado */
+.ilustrado {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
+	
+	overflow: hidden;
+	
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ilustrado img {
+	display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.ilustrado p {
+	width: 90%;
+}
+
+/* Passion - Concept Art: Persona */
+.concept-art {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
+	
+	overflow: hidden;
+	
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.concept-art video {
+	display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.concept-art p {
+	width: 90%;
+}
+
+/* Footer */
+.footer-info {
+	display :flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+	
+	h1 {
+	 padding: 1rem 2rem 0rem 2rem;
+	}
+	
+	p.headerp {
+		padding: 0rem 4rem 1rem 4rem;
+	}
+
+    .bio-container {
+        width: 90%;
+		flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-text,
+    .bio-pic {
+        width: 90%;
+        flex: none;
+        box-sizing: border-box;
+    }
+	
+	.bio-pic {
+		order: -1;
+	}
+
+    .bio-pic img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+	
+	.favorites-list {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .favorites-list ul {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+	
+	.genshin {
+		width: 90%;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.genshin p {
+		width: 90%;
+	}	
+	
+	.genshin video {
+		width: 90%;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.ilustrado {
+		width: 90%;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.ilustrado img {
+		width: 90%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.ilustrado p {
+		width: 90%;
+	}	
+
+	.concept-art {
+		width: 90%;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.concept-art video {
+		width: 90%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.concept-art p {
+		width: 90%;
+	}
+}
