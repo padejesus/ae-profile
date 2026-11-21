@@ -9,29 +9,38 @@ body {
         ),
         linear-gradient(
             to bottom,
-            #191416 0%,
-            #100D0E 60%,
-            #080808 100%
+            #281538 0%,
+			#1B0F27 55%,
+			#100A17 100%
         );
 
     background-attachment: fixed;
     background-repeat: no-repeat;
 	
 	font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
-	color: #EEEEEE;
+	color: #E8B96B;
 }
 
 a {
-	color: #958556;
+	color: #C99545;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #89764f;
+    border-top: 1px solid #594568;
 }
 
 
 /* Header Banner */
+.hero-banner {
+    width: 100%;
+    min-height: clamp(22rem, 38.264vw, 34.4375rem);
+
+    background-image: url("hero_pic.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 h1 {
 	font-family: 'Nata Sans', 'Inter', sans-serif;
@@ -75,8 +84,9 @@ h3 {
 	width: 70%;
 	margin: 0 auto;
 	
-	background: #1F1417;
-    border: 1px solid #89764f;
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
 	
 	overflow: hidden;
 	
@@ -125,8 +135,9 @@ h3 {
 	padding: 1.5rem;
 	box-sizing: border-box;
 	
-	background: #1F1417;
-    border: 1px solid #89764f;
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
 	
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
@@ -150,6 +161,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+	line-height: 1.8;
 }
 
 /* Passion - Voice Acting: Genshin */
@@ -163,8 +175,9 @@ h3 {
 	margin: 0 auto;
 	box-sizing: border-box;
 	
-	background: #1F1417;
-    border: 1px solid #89764f;
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
 	
 	overflow: hidden;
 	
@@ -191,12 +204,22 @@ h3 {
 	margin: 0 auto;
 	box-sizing: border-box;
 	
-	background: #1F1417;
-    border: 1px solid #89764f;
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
 	
 	overflow: hidden;
 	
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ilustrado img {
+	display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .ilustrado p {
@@ -214,15 +237,16 @@ h3 {
 	margin: 0 auto;
 	box-sizing: border-box;
 	
-	background: #1F1417;
-    border: 1px solid #89764f;
+	background: #392747;
+	border-radius: 1rem;
+    border: 1px solid #594568;
 	
 	overflow: hidden;
 	
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
 
-.ilustrado video {
+.concept-art video {
 	display: block;
     width: 90%;
     max-width: 100%;
@@ -310,8 +334,8 @@ h3 {
 		max-width: 100%;
 		box-sizing: border-box;
 	}
-
-	.ilustrado video {
+	
+	.ilustrado img {
 		width: 90%;
 		max-width: 100%;
 		height: auto;
@@ -325,6 +349,12 @@ h3 {
 		width: 90%;
 		max-width: 100%;
 		box-sizing: border-box;
+	}
+	
+	.concept-art video {
+		width: 90%;
+		max-width: 100%;
+		height: auto;
 	}
 	
 	.concept-art p {
