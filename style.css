@@ -194,6 +194,10 @@ h3 {
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
+.genshin-link {
+	text-align: center;
+}
+
 /* Passion - Writing: Ilustrado */
 .ilustrado {
 	display: flex;
