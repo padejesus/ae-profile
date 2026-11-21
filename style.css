@@ -222,6 +222,15 @@ h3 {
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
 
+.ilustrado video {
+	display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+	
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
 .concept-art p {
 	width: 90%;
 }
@@ -300,6 +309,12 @@ h3 {
 		width: 90%;
 		max-width: 100%;
 		box-sizing: border-box;
+	}
+
+	.ilustrado video {
+		width: 90%;
+		max-width: 100%;
+		height: auto;
 	}
 	
 	.ilustrado p {
