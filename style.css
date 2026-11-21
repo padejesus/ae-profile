@@ -36,7 +36,7 @@ hr {
     width: 100%;
     min-height: clamp(22rem, 38.264vw, 34.4375rem);
 
-    background-image: url("../hero_pic.png");
+    background-image: url("hero_pic.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
