@@ -50,7 +50,7 @@ h1 {
 }
 
 p.headerp {
-	font-family: 'Plus Jakarta Sans', 'Roboto' sans-serif;
+	font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
 	color: #EEEEEE;
 	text-align: center;
 }
